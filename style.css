@@ -1,21 +1,37 @@
 body {
-    margin: 0;
     background: #000;
     color: white;
-    font-family: Arial, sans-serif;
+    margin: 0;
     text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#controls {
+    margin: 20px;
+}
+
+#prompt {
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
 }
 
 #container {
     width: 100vw;
-    height: 90vh;
-}
-
-button {
-    margin: 10px;
-    padding: 12px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    height: 85vh;
 }
