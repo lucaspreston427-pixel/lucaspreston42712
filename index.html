@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <title>3D Model Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Text to 3D Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>3D Procedural Model Generator</h1>
-    <button id="spawn">Generate Model</button>
+
+    <h1>Type Something → Create a 3D Model</h1>
+
+    <!-- THE TEXT BOX + BUTTON -->
+    <div id="controls">
+        <input type="text" id="prompt" placeholder="Type anything... (tiger, castle, robot)">
+        <button id="generate">Generate</button>
+    </div>
 
     <div id="container"></div>
 
-    <!-- Three.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-
-    <!-- Your script -->
     <script src="script.js"></script>
+
 </body>
 </html>
